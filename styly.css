@@ -16,8 +16,8 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  
 }
+
 h1 {
   color: white;
   font-family: 'Lobster', cursive;
@@ -29,15 +29,16 @@ h1 {
 
 .text {
   color: white;
-  text-align:center;
+  text-align: center;
   padding: 3px;
   margin: 8px 8px 40px 8px;
   line-height: 1.5;
-
 }
+
 .kontejner {
   width: 400px;
 }
+
 .povidani {
   background-color: #283e50;
   display: flex;
@@ -47,20 +48,23 @@ h1 {
   font-family: sans-serif;
   letter-spacing: 1px;
 }
+
 .pravidla {
   background-color: #1fcca4;
   height: 50px;
   font-family: sans-serif;
   font-weight: 100;
   font-size: medium;
-
-
+  font-size: 18px;
 }
+
 .hrat {
   background-color: #0197f6;
   height: 50px;
   font-family: sans-serif;
+  font-size: 18px;
 }
+
 a {
   display: block;
   text-align: center;
@@ -71,16 +75,16 @@ a {
 
 .pravidla:hover {
   background-color: #1cbb96;
+  
 }
-.hrat:hover{
-  background-color: #0090e9;
 
+.hrat:hover {
+  background-color: #0090e9;
 }
+
 img {
   width: 400px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 7px 7px 0px 0px;
   display: block;
 }
-.tlacitko {
-  font-size: 18px;
-}
+
