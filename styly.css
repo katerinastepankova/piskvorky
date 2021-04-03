@@ -49,6 +49,7 @@ h1 {
   padding: 3px;
   margin: 8px 8px 40px 8px;
   line-height: 1.5;
+  font-family: sans-serif;
 }
 
 .povidani {
@@ -61,7 +62,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-.pravidla {
+.tlzelene {
   background-color: #1fcca4;
   height: 50px;
   font-family: sans-serif;
@@ -71,7 +72,7 @@ h1 {
 }
 
 
-.hrat {
+.tlmodre {
   background-color: #0197f6;
   height: 50px;
   font-family: sans-serif;
@@ -89,29 +90,24 @@ a {
   padding: 15px;
 }
 
-.pravidla:hover {
+.tlzelene:hover {
   background-color: #1cbb96;
 }
 
-.hrat:hover {
+.tlmodre:hover {
   background-color: #0090e9;
  
 }
- /*zde začíná css pro list Pravidla*/
+ /*zde začíná css pro stránku Pravidla*/
  /*---------------------------------------*/
 
 
-.pravidla__body{
-  background-image: linear-gradient(#615dad, #ffc8da);
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.body{
+
   height:auto;
-  /*min-height: 100vh;*/
+ 
 }
-.pravidla__kontejner{
+.pravidla{
   width: 400px;
   flex: 0 1 auto;
   background-color: #283e50;
@@ -122,7 +118,6 @@ a {
 
 .pravidla__povidani{
   color: white;
-  /*line-height: 1.5;*/
   text-align: start;
   padding: 70px;
 }
@@ -131,26 +126,22 @@ a {
 font-family: sans-serif;
 }
 
-.pravidla__ukazky{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-}
+
 .pravidla__ikona{
   width: 1rem;
   filter: invert(100%);
-  /*float: left;*/
+  display: inline-block;
 }
-.pravidla__obrazek{
-  width: 300px;
+.figobrazek{
+  width:100%;
   border-radius: 0ex;
   flex: 0 1 auto;
-  
   padding-right: 0;
 }
-.pravidla__popisek-obrazku{
+.pravidla__ukazky{
+  padding: 0 20px;
+}
+.figcaption{
   color: white;
   font-family: sans-serif;
   padding-right: 0;
@@ -159,37 +150,28 @@ font-family: sans-serif;
   text-align: center;
   font-style: italic;
 }
-.pravidla__navtlac--uvod{
-  background-color: #1fcca4;
-  height: 50px;
-  font-family: sans-serif;
-  font-weight: 100;
-  font-size: medium;
-  font-size: 18px;
-}
-.pravidla__navtlac--hrat{
-  background-color: #0197f6;
-  height: 50px;
-  font-family: sans-serif;
-  font-size: 18px;
-  border-top: 1.5px solid #283e50; 
-}
-.pravidla__navtlac--uvod:hover{
-  background-color: #1cbb96;
-}
-.pravidla__navtlac--hrat:hover{
-background-color: #0090e9;
-}
+
 
  @media screen and (min-width: 800px) {
-   .pravidla__kontejner{
+   .pravidla{
      width:750px;
    }
-   .pravidla__ukazkyflex{
-     display:flex;
-     
+  
+   .pravidla__povidani{
+     padding: 25px;
    }
-   .pravidla__figure{
-     flex: 0 1 auto;
-   }
- }
+  
+   .pravidla__ukazky{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+  }
+  .figure{
+    flex-basis: calc((100% - 20px) / 2);
+    margin: 0;
+  
+
+  }
+  }
