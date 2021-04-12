@@ -23,6 +23,7 @@ body {
   width: 400px;
   flex: 0 1 auto;
   background-color: #283e50;
+  
 }
 
 img {
@@ -90,11 +91,13 @@ a {
   padding: 15px;
 }
 
-.tlzelene:hover {
+.tlzelene:hover,
+.tlzelene:focus {
   background-color: #1cbb96;
 }
 
-.tlmodre:hover {
+.tlmodre:hover,
+.tlmodre:focus {
   background-color: #0090e9;
  
 }
@@ -173,5 +176,84 @@ font-family: sans-serif;
     margin: 0;
   
 
+  }}
+
+  /* zde začíná css pro úkol 3  - stránku Hra*/
+  /* --------------------------------------------- */
+.kontejner-hra{
+  max-width: 80vmin;
+  } 
+  .mrizka{
+    background: transparent;
+    opacity: 60%;
+
   }
-  }
+  .tlacitko{
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    border: 2px solid black;
+   
+    margin-bottom: 0;
+}
+.tlacitko:hover,
+.tlacitko:focus{
+ opacity: 70%;
+ /* filter: invert(50%); */
+}
+.zahlavi{
+  display:flex;
+  
+  margin: 10px 0px 30px 0px;
+ 
+}
+.nadpis-hraje{
+  color:white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  flex: 0 1 auto;
+  margin: 0px 5px 0px 0px;;
+
+}
+
+.tlzelobr{
+  background-image: url(obrazky/home.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width:40px;
+  height: 40px;
+  border-radius: 3px;
+  flex: 0 1 auto;
+  padding-bottom:5px;
+  margin-left: auto;
+
+}
+
+.tlmodrobr{
+  background-image: url(obrazky/restart.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width:40px;
+  height: 40px;
+  border-radius: 3px;
+  border-top: none;
+  flex: 0 1 auto;
+  margin-left: 5px;
+}
+
+.pravidla__ikona2{
+  width: 2rem;
+  filter: invert(100%);
+  flex: 0 1 auto;
+  /* margin: 0px 265px 0px 0px; */
+  /* align-self: flex-start; */
+  /* display: inline-block; */
+  
+}
+.radek-tlacitek{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+  
