@@ -98,7 +98,7 @@ a {
 
 .tlmodre:hover,
 .tlmodre:focus {
-  background-color: #0090e9;
+  background-color: #fc8da;
  
 }
  /*zde začíná css pro stránku Pravidla*/
@@ -184,22 +184,24 @@ font-family: sans-serif;
   max-width: 80vmin;
   } 
   .mrizka{
+    max-width: 80vmin;
     background: transparent;
-    opacity: 60%;
-
+    opacity: 50%;
+    font-size: 0;
+    
   }
+
   .tlacitko{
-    width: 50px;
-    height: 50px;
-    margin-top: 0;
-    border: 2px solid black;
    
-    margin-bottom: 0;
+    margin:0;
+    
+    border: 2px solid black;
+    width: 10%;
+    aspect-ratio: 1/1;
 }
 .tlacitko:hover,
-.tlacitko:focus{
- opacity: 70%;
- /* filter: invert(50%); */
+.tlacitko:focus {
+background-color: white;
 }
 .zahlavi{
   display:flex;
@@ -252,8 +254,5 @@ font-family: sans-serif;
   /* display: inline-block; */
   
 }
-.radek-tlacitek{
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
+
   
