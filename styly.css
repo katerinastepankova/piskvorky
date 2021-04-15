@@ -98,7 +98,7 @@ a {
 
 .tlmodre:hover,
 .tlmodre:focus {
-  background-color: #fc8da;
+  background-color: #0090e9;
  
 }
  /*zde začíná css pro stránku Pravidla*/
@@ -249,10 +249,6 @@ background-color: white;
   width: 2rem;
   filter: invert(100%);
   flex: 0 1 auto;
-  /* margin: 0px 265px 0px 0px; */
-  /* align-self: flex-start; */
-  /* display: inline-block; */
-  
 }
 
   
