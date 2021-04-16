@@ -184,7 +184,8 @@ font-family: sans-serif;
   max-width: 80vmin;
   } 
   .mrizka{
-    max-width: 80vmin;
+    width: 80vmin;
+    height: 80vmin;
     background: transparent;
     opacity: 50%;
     font-size: 0;
@@ -195,9 +196,10 @@ font-family: sans-serif;
    
     margin:0;
     
-    border: 2px solid black;
+    border: 1px solid black;
     width: 10%;
-    aspect-ratio: 1/1;
+    height: 10%;
+   
 }
 .tlacitko:hover,
 .tlacitko:focus {
