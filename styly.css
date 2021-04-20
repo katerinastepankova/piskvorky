@@ -18,12 +18,10 @@ body {
   min-height: 100vh;
 }
 
-
 .kontejner {
   width: 400px;
   flex: 0 1 auto;
   background-color: #283e50;
-  
 }
 
 img {
@@ -31,9 +29,6 @@ img {
   border-radius: 7px 7px 0px 0px;
   display: block;
 }
-
-
-
 
 h1 {
   color: white;
@@ -54,7 +49,6 @@ h1 {
 }
 
 .povidani {
-  
   display: flex;
   flex-direction: column;
   margin: 0px;
@@ -72,16 +66,13 @@ h1 {
   font-size: 18px;
 }
 
-
 .tlmodre {
   background-color: #0197f6;
   height: 50px;
   font-family: sans-serif;
   font-size: 18px;
-  border-top: 0.5px solid #283e50; 
-  ;
+  border-top: 0.5px solid #283e50;
 }
-
 
 a {
   display: block;
@@ -99,18 +90,14 @@ a {
 .tlmodre:hover,
 .tlmodre:focus {
   background-color: #0090e9;
- 
 }
- /*zde začíná css pro stránku Pravidla*/
- /*---------------------------------------*/
+/*zde začíná css pro stránku Pravidla*/
+/*---------------------------------------*/
 
-
-.body{
-
-  height:auto;
- 
+.body {
+  height: auto;
 }
-.pravidla{
+.pravidla {
   width: 400px;
   flex: 0 1 auto;
   background-color: #283e50;
@@ -119,32 +106,31 @@ a {
   border-radius: 8px;
 }
 
-.pravidla__povidani{
+.pravidla__povidani {
   color: white;
   text-align: start;
   padding: 70px;
 }
 
-.pravidla__odrazky{
-font-family: sans-serif;
+.pravidla__odrazky {
+  font-family: sans-serif;
 }
 
-
-.pravidla__ikona{
+.pravidla__ikona {
   width: 1rem;
   filter: invert(100%);
   display: inline-block;
 }
-.figobrazek{
-  width:100%;
+.figobrazek {
+  width: 100%;
   border-radius: 0ex;
   flex: 0 1 auto;
   padding-right: 0;
 }
-.pravidla__ukazky{
+.pravidla__ukazky {
   padding: 0 20px;
 }
-.figcaption{
+.figcaption {
   color: white;
   font-family: sans-serif;
   padding-right: 0;
@@ -154,92 +140,86 @@ font-family: sans-serif;
   font-style: italic;
 }
 
+@media screen and (min-width: 800px) {
+  .pravidla {
+    width: 750px;
+  }
 
- @media screen and (min-width: 800px) {
-   .pravidla{
-     width:750px;
-   }
-  
-   .pravidla__povidani{
-     padding: 25px;
-   }
-  
-   .pravidla__ukazky{
-    display:flex;
+  .pravidla__povidani {
+    padding: 25px;
+  }
+
+  .pravidla__ukazky {
+    display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    
   }
-  .figure{
+  .figure {
     flex-basis: calc((100% - 20px) / 2);
     margin: 0;
-  
-
-  }}
-
-  /* zde začíná css pro úkol 3  - stránku Hra*/
-  /* --------------------------------------------- */
-.kontejner-hra{
-  max-width: 80vmin;
-  } 
-  .mrizka{
-    width: 80vmin;
-    height: 80vmin;
-    background: transparent;
-    opacity: 50%;
-    font-size: 0;
-    
   }
+}
 
-  .tlacitko{
-   
-    margin:0;
-    
-    border: 1px solid black;
-    width: 10%;
-    height: 10%;
-   
+/* zde začíná css pro úkol 3  - stránku Hra*/
+/* --------------------------------------------- */
+.kontejner-hra {
+  max-width: 80vmin;
+}
+.mrizka {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vmin;
+  height: 80vmin;
+  background: transparent;
+  opacity: 50%;
+  /* font-size: 0; */
+}
+
+.tlacitko {
+  margin: 0;
+
+  border: 1px solid black;
+  width: 10%;
+  height: 10%;
 }
 .tlacitko:hover,
 .tlacitko:focus {
-background-color: white;
+  background-color: white;
 }
-.zahlavi{
-  display:flex;
-  
+.zahlavi {
+  display: flex;
+  align-items: center;
+
   margin: 10px 0px 30px 0px;
- 
 }
-.nadpis-hraje{
-  color:white;
+.nadpis-hraje {
+  color: white;
   text-transform: uppercase;
   font-family: sans-serif;
   font-size: 30px;
   font-weight: bold;
   flex: 0 1 auto;
-  margin: 0px 5px 0px 0px;;
-
+  margin: 0px 5px 0px 0px;
 }
 
-.tlzelobr{
+.tlzelobr {
   background-image: url(obrazky/home.svg);
   background-position: center;
   background-repeat: no-repeat;
-  width:40px;
+  width: 40px;
   height: 40px;
   border-radius: 3px;
   flex: 0 1 auto;
-  padding-bottom:5px;
+  padding-bottom: 5px;
   margin-left: auto;
-
 }
 
-.tlmodrobr{
+.tlmodrobr {
   background-image: url(obrazky/restart.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width:40px;
+  width: 40px;
   height: 40px;
   border-radius: 3px;
   border-top: none;
@@ -247,10 +227,8 @@ background-color: white;
   margin-left: 5px;
 }
 
-.pravidla__ikona2{
+.pravidla__ikona2 {
   width: 2rem;
   filter: invert(100%);
   flex: 0 1 auto;
 }
-
-  
