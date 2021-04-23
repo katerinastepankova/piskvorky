@@ -182,6 +182,9 @@ a {
   border: 1px solid black;
   width: 10%;
   height: 10%;
+  transition: background-size 0.25s;
+  background-size: 0;
+
 }
 .tlacitko:hover,
 .tlacitko:focus {
@@ -231,4 +234,30 @@ a {
   width: 2rem;
   filter: invert(100%);
   flex: 0 1 auto;
+}
+
+.pravidla__ikona2Cross {
+  width: 2rem;
+  filter: invert(100%);
+  flex: 0 1 auto;
+  background-image: url(obrazky/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* javascript třídy */
+
+.board__field--cross{
+  background-image: url(obrazky/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: 70%;
+
+}
+
+.board__field--circle{
+  background-image: url(obrazky/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
 }
