@@ -8,7 +8,11 @@ let ikonka = document.querySelector('img');
 
 
 const priradSymbol = (event) => {
+ 
+  if (event.target.tagName === 'BUTTON'){
+    
   if (kdoHraje === 'cross') {
+
     event.target.classList.add('board__field--cross');
     event.target.disabled = true;
     ikonka.src = 'obrazky/circle.svg';
@@ -25,6 +29,7 @@ const priradSymbol = (event) => {
   if (isWinningMove(event.target)){
     window.alert('Vyhráváš! :-)')
   }
+}
 
 };
 
